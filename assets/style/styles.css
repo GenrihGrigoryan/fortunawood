@@ -1,0 +1,35 @@
+
+.base {
+        max-width: 1200px;
+        box-sizing: border-box;
+}
+
+nav {
+        padding-top: 1.6rem;
+        padding-top: 1.6rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        max-width: 120rem;
+        width: 100%;
+        position: relative;
+        box-sizing: border-box;
+        display: block;
+}
+
+nav.menu{
+flex-direction: row;
+width: 100%;
+align-items: flex-start;
+display: flex;
+flex-direction: column;
+position: relative;
+box-sizing: border-box;
+display: block;
+}
+
+:root {
+--bg: #F1F2F1;
+--font: #2E3338;
+}

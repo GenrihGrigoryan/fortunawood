@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" class="html" lang="en">
+{% include head.html %}
+<body class="html-body">
+    <div id="page-container" class=" pos-relative f-column overflow-hidden z-0 ">
+        <div class=" page-top-container--has-full-width-bg pos-relative f-column f-align-center ">
+            {% include nav.html %}
+            <div class="banner__bg-picture pos-absolute top-0 bottom-0 min-width-100vw bg-mint-darkest">
+                <div class="d-block align-self-start f-shrink-0 min-width-100percent height-auto min-height-100percent banner__bg-img img--has-fade-in img--is-loading"></div>
+                </div>
+                {%- comment -%}
+<section class=" padding-y-l-expanding f-column f-align-center f-1 width-100percent max-width-content padding-x-content banner banner--has-full-width-bg">
+    <div class=" banner__content banner__content--has-full-width-bg f-column f-justify-end f-align-start ">
+        <div class=" banner__text banner__text--has-full-width-bg">
+            <h1 id="h1" class=" banner__title banner__title--has-full-width-bg ">{{page.title}}</h1>
+            <div class=" banner__subtitle d-block margin-top-p max-width-none h4 font-weight-regular banner__subtitle--has-full-width-bg ">
+                <p>{{page.desc}}</p>
+                </p>
+                <p class=" banner__button-wrapper margin-top-m max-width-none text-align-center ">
+                    <a class="button button--primary" href="/en/climate-subscriptions">Join now</a>
+            </div>
+        </div>
+    </div>
+</section>
+{%- endcomment -%}
+</div>
+</div>
+
+<div>
+    <main role="main" class="base padding-x-content padding-top-s-expanding padding-bottom-m">
+        {{ content }}
+    </main>
+</div>
+
+
+
+
+
+<footer>{% include footer.html %}</footer>
+</body>
+</html>
