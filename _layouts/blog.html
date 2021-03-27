@@ -1,0 +1,52 @@
+---
+layout: page
+---
+
+<style>
+    h2.post-card-title{
+        margin-top: .5em !important;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+        margin: 1.5em 0 .5em;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .pk{
+        position: relative;
+        display: block;
+        padding: 0px 25px 0px;
+    }
+
+    .pe{
+        font-size: 1rem;
+    }
+</style>
+
+<div class="inner">
+    <div class="post-feed">
+        {% assign words_per_minute = 200 %}
+        {% for post in site.notes %}
+            <article class="post-card {{ page.class }}{% unless post.cover %} no-image{% endunless %}">
+                {% if post.cover %}
+                    <a class="post-card-image-link" href="{{ site.baseurl }}{{ post.url | remove_first: '/' }}">
+                        <div class="post-card-image" style="background-image: url({{ site.baseurl }}{{ post.cover }})"></div>
+                    </a>
+                {% endif %}
+                <div class="post-card-content pk">
+                        <header class="post-card-header">     
+                            <h2 class="post-card-title">{{ post.title }}</h2>
+                        </header>
+                        <section class="post-card-excerpt pe">
+                            {% if post.excerpt %}
+                                <p>{{ post.excerpt | strip_html | truncatewords: 20, "..." }}</p>
+                            {% else %}
+                                <p>{{ post.content | strip_html | truncatewords: 20, "..." }}</p>
+                            {% endif %}
+                        </section>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+</div>
