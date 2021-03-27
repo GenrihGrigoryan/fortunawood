@@ -13,7 +13,7 @@ padding: 1.5em;
 }
 
 .bgim{
-background-image: url('/images/photo/custom-bg-1.jpg');
+/* background-image: url('/images/photo/custom-bg-1.jpg'); */
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
@@ -35,8 +35,8 @@ background-position: left;
   }
 
 </style>
-
-<div class = "bgim">
+{% assign variable = '/images/photo/custom-bg-1.jpg' %}
+<div class = "bgim" style="background-image: url('{{ variable | relative_url }}');">
   <div style = "background: rgba(255,255,255,0.75);">
     <div class="intro">
       <div class="container">
