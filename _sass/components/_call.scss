@@ -3,7 +3,7 @@
   overflow: hidden;
   background-color: $white-offset;
   border-radius: 8px;
-  // box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0.18rem 0.25rem -0.5rem rgb(18,20,22 / 6%), 0 0.54rem 1.44rem -0.5rem rgba(0,0,0,0.2), 0 0.44rem 1.78rem -4rem rgba(18,20,22,0.1);
   width: 100%;
   display: flex;
   align-items: center;
@@ -26,7 +26,7 @@
     padding: 20px;
     border-top: 1px solid darken($white-offset, 5%);
     @include media-breakpoint-up(sm) {
-      flex: 0 0 auto;
+      flex: auto;
       border: none;
     }
   }

@@ -1,10 +1,15 @@
 ---
-title: "Business Sales"
+title: "Edged-Boards"
 date: 2018-11-28T15:15:26+10:00
 featured: true
 weight: 3
 layout: service
-info: 'Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.'
+info: '<ul>
+<li>thickness of 25-50mm</li>
+<li>width 100-200mm</li>
+<li>natural humidity</li>
+<li>1-3 grade and no more than 10% of 4th grade</li>
+</ul>'
 ---
 
 Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia

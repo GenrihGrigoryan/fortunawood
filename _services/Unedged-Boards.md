@@ -1,10 +1,12 @@
 ---
-title: "Business Advisory"
+title: "Unedged Boards"
 date: 2018-11-28T15:14:39+10:00
 featured: true
 weight: 2
 layout: service
-info: 'Financial accounting (or financial accountancy) is the field of accounting concerned with the **summary, analysis and reporting** of financial transactions related to a business.'
+info: '• width 220mm to 550mm<br>
+• length 4000-6000mm<br>
+• natural humidity'
 ---
 
 Lorem markdownum, dictis umbrosum dextrum, Lelegeia quamquam distantes pares
