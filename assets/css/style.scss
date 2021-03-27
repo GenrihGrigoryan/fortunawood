@@ -59,7 +59,7 @@ $sub-footer-text-color: $white;
 @import 'pages/services/page-services-single';
 
 body {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.2;
   font-family: $font-family-base;
   @include media-breakpoint-up(md) {
