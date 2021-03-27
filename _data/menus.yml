@@ -1,0 +1,30 @@
+main:
+  - name: "Production"
+    url: "/services/"
+    weight: 3
+  - name: "Blog"
+    url: "/team/"
+    weight: 4
+  - name: "About"
+    url: "/about/"
+    weight: 2
+  - name: "Contact"
+    url: "/contact/"
+    weight: 5
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+  - name: "Production"
+    url: "/services/"
+    weight: 3
+  - name: "Blog"
+    url: "/team/"
+    weight: 4
+  - name: "About"
+    url: "/about/"
+    weight: 2
+  - name: "Contact"
+    url: "/contact/"
+    weight: 5

@@ -1,88 +1,19 @@
-<nav aria-labelledby="secondary-navigation" inverted="" class=" page-footer f-column f-align-center pos-relative padding-y-l has-inverted-colors shadow-dark-xl-opacity-100 bg-mint-near-black no-print">
-    <div class=" f-column f-wrap f-space-between width-100percent max-width-content padding-x-content ">
-        <h2 id="secondary-navigation" class="screen-reader-only">Secondary navigation</h2>
-        <aside class="has-inverted-colors small">
-            <h3 class="h4" id="donate-to-protect-the-climate">FortunaWood Kft</h3>
-            <p>
-                A 
-                <a href="/en/climate-subscriptions">climate subscription</a>
-                 is the easiest way to make your life climate positive. You can also make a 
-                <a href="/en/donate-for-climate-protection">single donation</a>
-                 to protect our climate.
-            </p>
-        </aside>
-        <h3 class="h4 has-inverted-colors">Follow us</h3>
-        <ul class=" page-footer-menu page-footer-menu--social f-row f-wrap f-align-stretch f-gap-xs margin-top-0 ">
-            <li class=" d-block white-space-nowrap list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--facebook">
-                <a class=" button button--has-label-and-icon button--has-icon-facebook page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " title="ForTomorrow on Facebook" target="_blank" rel="nofollow noopener" href="https://www.facebook.com/fortomorrow.eu">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                        <path d="M10.125 15.47v8.386h3.75V15.47h2.796l.532-3.47h-3.328V9.75c0-.95.464-1.875 1.955-1.875h1.514V4.922s-1.374-.234-2.686-.234c-2.742 0-4.533 1.662-4.533 4.67V12H7.078v3.47h3.047z"/>
-                    </svg>
-                     Facebook
-                </a>
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <h3 class="footer-title">{{site.title}}</h3>
+          <ul>
+            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+            {% for item in footermenu %}
+            <li class="{% if item.url == page.url %}active{% endif %}">
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
             </li>
-            <li class=" d-block white-space-nowrap list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--instagram">
-                <a class=" button button--has-label-and-icon button--has-icon-instagram page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " title="ForTomorrow on Instagram" target="_blank" rel="nofollow noopener" href="https://www.instagram.com/fortomorrow.eu">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
-                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                    </svg>
-                     Instagram
-                </a>
-            </li>
-            <li class=" d-block white-space-nowrap list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--twitter">
-                <a class=" button button--has-label-and-icon button--has-icon-twitter page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " title="ForTomorrow on Twitter" target="_blank" rel="nofollow noopener" href="https://twitter.com/ForTomorrow2040">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                        <path d="M11.74 8l.04.65-.65-.08c-2.367-.305-4.435-1.337-6.19-3.072l-.858-.86-.22.636c-.468 1.417-.17 2.913.806 3.92.52.556.403.636-.494.305-.312-.106-.585-.185-.61-.146-.09.093.22 1.298.468 1.774.338.662 1.027 1.31 1.782 1.695l.637.305-.754.013c-.728 0-.754.013-.676.29.26.86 1.288 1.774 2.432 2.172l.806.278-.702.424c-1.04.61-2.263.953-3.486.98-.585.013-1.066.066-1.066.106 0 .132 1.587.874 2.5 1.165 2.77.86 6.06.5 8.532-.98 1.756-1.046 3.512-3.125 4.33-5.137.442-1.072.884-3.032.884-3.972 0-.61.04-.69.767-1.417.43-.424.832-.887.91-1.02.13-.252.117-.252-.546-.026-1.105.397-1.262.344-.715-.252.403-.424.884-1.192.884-1.417 0-.04-.195.026-.416.146-.234.132-.754.33-1.145.45l-.702.225-.637-.437c-.35-.238-.845-.503-1.106-.583-.663-.185-1.678-.16-2.276.053C12.65 4.773 11.623 6.31 11.74 8z"/>
-                    </svg>
-                     Twitter
-                </a>
-            </li>
-            <li class=" d-block white-space-nowrap list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--linkedin">
-                <a class=" button button--has-label-and-icon button--has-icon-linkedin page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " title="ForTomorrow on LinkedIn" target="_blank" rel="nofollow noopener" href="https://www.linkedin.com/company/fortomorrow/">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                        <path fill-rule="evenodd" d="M7.773 6.158c-.022-1.017-.75-1.792-1.93-1.792s-1.954.775-1.954 1.792c0 .996.75 1.794 1.91 1.794h.022c1.204 0 1.954-.797 1.954-1.794zm-.228 3.2H4.092v10.376h3.454V9.368zm8.478-.244c2.273 0 3.976 1.483 3.976 4.67v5.95h-3.453v-5.55c0-1.394-.5-2.346-1.75-2.346-.954 0-1.522.64-1.772 1.26-.09.222-.114.53-.114.84v5.795H9.457V9.368h3.454v1.47c.458-.707 1.28-1.714 3.113-1.714z"/>
-                    </svg>
-                     LinkedIn
-                </a>
-            </li>
-            <li class=" d-block white-space-nowrap list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--mail">
-                <a class=" button button--has-label-and-icon button--has-icon-mail page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " title="Newsletter" href=" /en/newsletter-sign-up ">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" class="icon icon-mail" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                        <path d="M22 6l-10 7L2 6"/>
-                    </svg>
-                     Newsletter
-                </a>
-            </li>
-            <li class=" list-style-none page-footer-menu__item page-footer-menu__item--social page-footer-menu__item--mail">
-                <a class=" button button--has-label-and-icon button--has-icon-rss page-footer-menu__link page-footer-menu__link--social d-inline-block min-height-touch line-height-touch text-decoration-none " href="https://www.fortomorrow.eu/feed-en.xml">
-                    <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" focusable="false" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss">
-                        <path d="M4 11a9 9 0 0 1 9 9"></path>
-                        <path d="M4 4a16 16 0 0 1 16 16"></path>
-                        <circle cx="5" cy="19" r="1"></circle>
-                    </svg>
-                     RSS
-                </a>
-            </li>
-        </ul>
-        <ul class=" page-footer-menu page-footer-menu--site-nav f-gap-s ">
-            <li class=" page-footer-menu__item d-inline-block small ">
-                <a class=" page-footer-menu__link text-decoration-none bg-transparent tap-highlight-color-transparent " aria-current="page" href="/en/home">Home</a>
-            </li>
-            <li class=" page-footer-menu__item d-inline-block small ">
-                <a class=" page-footer-menu__link text-decoration-none bg-transparent tap-highlight-color-transparent " aria-current="page" href="/en/work-at-fortomorrow">Work with us</a>
-            </li>
-            <li class=" page-footer-menu__item d-inline-block small ">
-                <a class=" page-footer-menu__link text-decoration-none bg-transparent tap-highlight-color-transparent " aria-current="page" href="/en/contact">Contact</a>
-            </li>
-            <li class=" page-footer-menu__item d-inline-block small ">
-                <a class=" page-footer-menu__link text-decoration-none bg-transparent tap-highlight-color-transparent " aria-current="page" href="/en/legal-notice">Legal notice</a>
-            </li>
-            <li class=" page-footer-menu__item d-inline-block small ">
-                <a class=" page-footer-menu__link text-decoration-none bg-transparent tap-highlight-color-transparent " aria-current="page" href="/en/privacy">Privacy policy</a>
-            </li>
-        </ul>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
-</nav>
+  </div>
+</div>
