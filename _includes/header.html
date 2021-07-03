@@ -1,7 +1,12 @@
 <div class='header'>
   <div class="container">
-    <div style="display: block;">
-      <a href="{{ site.baseurl }}">Fortuna<strong>Wood</strong></a>
+    <div style="display: flex;
+    justify-content: space-between;
+    align-items: center;">
+      <div class="logo">
+        <a href="{{ site.baseurl }}"><img height="{{ site.logo }}" alt="{{ site.title }}" src="{{ site.logo | relative_url }}" /></a>
+      </div>
+      <a href="{{ site.baseurl }}" style = "padding-left: 10px;">Fortuna<strong>Wood</strong></a>
     </div>
     {% include main-menu.html %}
     {% include hamburger.html %}

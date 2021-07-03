@@ -34,6 +34,13 @@ body {
 }
 */
 
+.container a{
+    color: #ffffff;
+}
+
+.main-menu ul li a{
+    color: #ffffff;
+}
 
 .img {
     display: block;

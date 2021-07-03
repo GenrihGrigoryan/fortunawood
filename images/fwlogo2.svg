@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="252px" viewBox="0 0 448 252" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.574957147" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="0%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.574957147" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Color" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-39" transform="translate(-33.000000, -130.000000)">
+            <g id="Group" transform="translate(33.280000, 130.560000)">
+                <path d="M116.906667,167.253333 L116.906667,185.6 C116.906667,214.112621 93.7926207,237.226667 65.28,237.226667 C36.7673793,237.226667 13.6533333,214.112621 13.6533333,185.6 L13.6533333,167.253333 L116.906667,167.253333 Z M220.16,90.4533333 L220.16,160.426667 L13.6533333,160.426667 L13.6533333,90.4533333 L220.16,90.4533333 Z M220.16,13.6533333 L220.16,83.6266667 L13.6533333,83.6266667 L13.6533333,68.2666667 C13.6533333,38.1045555 38.1045555,13.6533333 68.2666667,13.6533333 L220.16,13.6533333 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M290.986667,13.6533333 L290.986667,237.226667 L281.6,237.226667 C251.437889,237.226667 226.986667,212.775444 226.986667,182.613333 L226.986667,13.6533333 L290.986667,13.6533333 Z M361.813333,13.6533333 L361.813333,237.226667 L297.813333,237.226667 L297.813333,13.6533333 L361.813333,13.6533333 Z M378.026667,13.6533333 C408.188778,13.6533333 432.64,38.1045555 432.64,68.2666667 L432.64,182.613333 C432.64,212.775444 408.188778,237.226667 378.026667,237.226667 L368.64,237.226667 L368.64,13.6533333 L378.026667,13.6533333 Z" id="Combined-Shape" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
