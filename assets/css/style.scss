@@ -13,19 +13,14 @@ $link-decoration: none;
 $link-hover-color: lighten($primary, 10%);
 $link-hover-decoration: underline;
 
-@import 'assets/css/screen';
-@import 'assets/css/manrope-font';
+@import 'assets/css/screen.css';
+@import 'assets/css/manrope-font.css';
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap');
+
 
 // Fonts
-$font-family-base: Montserrat, 'El Messiri', Mulish, Barlow, Inter, Manrope, sans-serif, -apple-system;
-$font-family-heading: Montserrat, 'El Messiri', Mulish, Barlow, Inter, Manrope, sans-serif, -apple-system;
+$font-family-base: Montserrat, Manrope, sans-serif, -apple-system;
+$font-family-heading: Montserrat, Manrope, sans-serif, -apple-system;
 
 // Footer
 $footer-background-color: $primary;
