@@ -38,8 +38,45 @@ background-color: #007bff;
 border-color: #007bff;
 }
 
-</style>
+.column {
+  float: left;
+  max-width: 33%;
+  flex: 0 0 33.3333333333%;
+}
 
+.myrow{
+  padding-top: 20px;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+
+.grid-container {
+  padding-top: 20px;
+  display: grid;
+  grid-gap: 3.5rem 2rem;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+.grid-item{
+  /*
+  grid-row-start: 1;
+  grid-row-end: 3;
+  */
+  padding-right: 10px;
+  padding-top: 10px;
+}
+/* Clear floats after the columns */
+
+
+</style>
+<!--
 <div class="container pb-6 pb-md-10">
       <form action="https://api.slapform.com/your@email.com" method="POST">
         <div class="container">
@@ -62,5 +99,34 @@ border-color: #007bff;
           </div>
         </div>
       </form>
+</div>
+-->
+
+
+<div class="container pt-6 pb-md-10">
+  <h1 class="title">Contact us</h1>
+  You can contact via main email <strong><a href="mailto:{{ .site.data.contact.email }}">{{ site.data.contact.email }}</a></strong>, or call direct to one of our offices:
+<!--
+<div class="myrow">
+  <div class="column"><div><b>Budapest</b></div><div>Hungary</div><div>hu@fortunawood.com</div><div>+1 455 24 24</div></div>
+  <div class="column"><div><b>Rome</b></div><div>Italy</div><div>it@fortunawood.com</div><div>+1 455 24 24</div></div>
+  <div class="column"><div><b>Munich</b></div><div>Germany</div><div>ge@fortunawood.com</div><div>+1 455 24 24</div></div>
+</div>
+
+<div class="myrow">
+  <div class="column"><div><b>Paris</b></div><div>France</div><div>fr@fortunawood.com</div><div>+1 455 24 24</div></div>
+  <div class="column"><div><b>HollCity</b></div><div>Holland</div><div>ho@fortunawood.com</div><div>+1 455 24 24</div></div>
+  <div class="column"><div><b>BelgCity</b></div><div>Belgium</div><div>be@fortunawood.com</div><div>+1 455 24 24</div></div>
+</div>
+-->
+
+<div class="grid-container">
+  <div class="grid-item"><div><b>Budapest</b></div><div>Hungary</div>   <div><a href="hu@fortunawood.com">hu@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+  <div class="grid-item"><div><b>Rome</b></div><div>Italy</div>         <div><a href="it@fortunawood.com">it@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+  <div class="grid-item"><div><b>Munich</b></div><div>Germany</div>     <div><a href="ge@fortunawood.com">ge@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+  <div class="grid-item"><div><b>Paris</b></div><div>France</div>       <div><a href="fr@fortunawood.com">fr@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+  <div class="grid-item"><div><b>HollCity</b></div><div>Holland</div>   <div><a href="ho@fortunawood.com">ho@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+  <div class="grid-item"><div><b>BelgCity</b></div><div>Belgium</div>   <div><a href="be@fortunawood.com">be@fortunawood.com</a></div>  <div><a href="tel:+1 455 24 24">+1 455 24 24</a></div>  </div>
+</div>
 
 </div>
