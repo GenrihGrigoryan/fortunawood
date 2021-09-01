@@ -3,12 +3,8 @@
     <div class="row">
       <div class="col-12">
         <div class="sub-footer-inner">
-          {% if site.data.social %}
-            {% include social.html %}
-          {% endif %}
           {% if site.footer.copyright_text %}
           <div class="copyright">
-            <strong>Phone [EN, DE]: </strong> <a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a>
             <strong>Email: </strong><a href="mailto:{{ .site.data.contact.email }}">{{ site.data.contact.email }}</a>
           </div>
           {% endif %}

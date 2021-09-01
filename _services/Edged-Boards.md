@@ -4,53 +4,13 @@ date: 2018-11-28T15:15:26+10:00
 featured: true
 weight: 3
 layout: service
-info: '<ul>
-<li>thickness of 25-50mm</li>
-<li>width 100-200mm</li>
-<li>natural humidity</li>
-<li>1-3 grade and no more than 10% of 4th grade</li>
-</ul>'
+info: '• thickness of 25-50mm<br>
+• width 100-200mm<br>
+• natural humidity
+• 1-3 grade and no more than 10% of 4th grade'
+image: 'images/photo/cat-img-3.jpg'
 ---
 
-Cyanee nec pedicis positi. Esse et diem forte quoque et ieiunia
-vixque dixit negari _ullis stamina_: trahit. Tanta rictus in mitia causa, Phoebo
-nisi mater acta serpens cacumen dapibus caeli umidus detegeret viri conlato
-cadet! [Ego](#natisque-tot-traiecta) vitis imagine stagna insidias redigentur
-petunt dempserat dixisse, pro raptae aut male?
+Edged lumber is usually dried in the oven (killed dry) and reaches a humidity of 8-12%, making the wood more durable and less sensitive to deformities. In contrast to unedged wood, the edged wood comes in predefined dimensions and can be inserted directly into the production chain, without prior procedures. Edged lumber can also be suitable for the production of luxury and more classical furniture. The edged timber is used in the production of side doors, chests, chairs and more. Since the production process of edged wood is longer, it is considered more expensive and rare than the unedged one.
 
-- Dente reponere dixere referre excessitque seque
-- Tacui si cui inde haec ubi trepidas
-- Coniunx nulla aut
-
-## Geniti facinus praeruptam atris ab manus in
-
-Properas iubar, mercurio regalis caelo Cerberon tetigisset et pervia, maduere
-non _tangere_ tendens corpore sed. Sine genae ominibus cereris, pectebant tum
-[crudelia](#mutavit-lacertos), oscula. Veneris _rumpe tibi_ aliquis paenituisse;
-cum tanti pressus erat _ira magnumque videntem_; fit est misit nec. Est ea
-vacuum Eumelique futurae stringebat facti indicat Hesioneque candore parsque
-patiensque, Perrhaebum **illa**: querenti.
-
-1. Deum sibi poma lacuque fateor
-2. Nisi vultibus adspicio totosque gladios a novatrix
-3. Regna ducebat
-
-_Fuit_ eurus promissaque. Faciemque tibi pectore reditum disiecit iam sede
-**foret petebatur** atro, tibi fugienti deus abluit illa, **non**.
-
-## Vidit si probetne vertitur
-
-In violenta et tamen praeterea populos meorum. Nos carissime Fortuna tellus aevo
-vestigia summae? Ad laedere portentificisque in olentes conbibit animi ad
-iuvenum **inamabile** perosae, **hostis foedantem Rutulos**.
-
-1. Augusta exstinctus dempto repperit ut quati enim
-2. Quae illo sine fatorum
-3. Sub ut Hyadasque specus terraeque coniunx vix
-4. Voce addita est haec
-5. Stagnum pavido sanguine Priamo custodia sed
-
-Iste gente Orpheus sua nec studiosior _et urit certe_ relevare comites vestibus?
-Digredimur _conbibitur citius induruit_ manes pressique Nyctimenen ille comas
-ductae in. Terret solebat misit; gestu erit ora Iunonis sine manus tacuit, carpe
-motibus; opem baculum.
+There are various species of trees that can be obtained in their edged and unedged form. Among them is the European oak wood. For most manufacturers, they prefer the oak tree when trimmed, and can be directly put into the production process, because it saves time and additional costs, which can lead to improved revenue. However, there are few manufacturers who are interested in purchasing an unedged oak lumber or unedged beech lumber because of the relatively reasonable cost of sawing and the wide application. Therefore it is important for a variety of wood suppliers to assess the nature of the market and the level of demand for a variety of different types of woods in order to make the best use of their production.
