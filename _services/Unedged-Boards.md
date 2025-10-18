@@ -7,7 +7,7 @@ layout: service
 info: '• width 220mm to 550mm<br>
 • length 4000-6000mm<br>
 • natural humidity'
-image: '/images/photo/cat-img-2.jpg'
+image: '/images/photo/cat-img-21.jpg'
 ---
 
 Unedged hardwood board is a board with partially edged or fully edged sides. As a result, there is a bark on one or both edges and one of the edges may be rough.
